@@ -8,7 +8,7 @@ function checkIf3am(){
     var hour = now.getHours();
     var minute = now.getMinutes();
     var itIs3am = hour===3 & minute===0;
-    console.log(isIt3am);
+    console.log(itIs3am);
     if (itIs3am){
         $('#Answer').text('Yes.');
         play3am();
